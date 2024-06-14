@@ -26,6 +26,7 @@
   .contact-info ul {
     list-style: none;
     padding: 0;
+    color: #333;
   }
   
   .contact-info li {
@@ -34,7 +35,7 @@
   }
   
   .order-form {
-    background-color: #FFC0CB;
+    background-color: white;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;

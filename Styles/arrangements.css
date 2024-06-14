@@ -2,14 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFC0CB
+  background-color: #FFC0CB;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #FFC0CB
+  background-color:#FFC0CB;
 }
 
 header {
@@ -68,7 +68,8 @@ main {
 .arrangement {
   width: 32%;
   text-align: center;
-  background-color: #FFC0CB;
+  background-color:#FFC0CB;
+  color: #333;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #333;
+}
+.footer div {
+    flex: 1;
+}
+.footer div:not(:last-child) {
+    margin-right: 20px;
+}
+.footer h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer p {
+    margin: 10px 0;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.footer button {
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.back-to-top {
+    text-align: center;
+}
