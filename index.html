@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom Flower Shop</title>
+    <link rel="stylesheet" href="Styles/homepage.css" />
+    <link rel="stylesheet" href="Styles/hero-section.css" />
+    <link rel="stylesheet" href="Styles/contact.css" />
+    <link rel="stylesheet" href="Styles/arrangements.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Blossom Flower Shop</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#arrangements">Arrangements</a></li>
+            <li><a href="#offers">Special Offers</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="hero"
+      style="
+        background-image: url('images/hero-section.jpg');
+        height: 300px;
+        background-position: center;
+      "
+    >
+      <div class="hero-container">
+        <h2>Welcome to Blossom Flower Shop</h2>
+        <p>
+          Your one-stop shop for the finest selection of flowers and handcrafted
+          <br />
+          arrangements for every occasion. We bring beauty and joy to your
+          doorstep <br />
+          as your local florist with a personal touch.
+        </p>
+      </div>
+    </section>
+    <section id="arrangements" class="featured">
+      <header>
+        <h2>Featured Floral Arrangements</h2>
+      </header>
+      <div class="container">
+        <div class="content">
+          <aside>
+          
+           <img src="images/featured-display.png" alt="">
+          </aside>
+          <main>
+            <div class="arrangements">
+              <div class="arrangement">
+                <img src="images/bouquet1.jpg" alt="Amelia" />
+                <h3>Spring Bouquet</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/bouquet2.jpg" alt="Red Roses Bunch" />
+                <h3>Wedding Flowers</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/bouquet3.jpg" alt="Falling in Love" />
+                <h3>Gift Basket</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/pastelMixedRose.jpg" alt="Pastel Mixed Rose" />
+                <h3>Pastel Mixed Rose</h3>
+              </div>
+            </div>
+          </main>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offers" class="offers">
+      <div class="container">
+        <h2>Special Offers</h2>
+        <p>Check out our latest special offers and discounts!</p>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Custom Bouquets</li>
+          <li>Wedding Arrangements</li>
+          <li>Corporate Events</li>
+          <li>Delivery Service</li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <ul>
+          <li><strong>Email:</strong> info@blossomshop.com</li>
+          <li><strong>Phone:</strong> +27 78 456-7890</li>
+        </ul>
+        </div>
+      <div class="container">
+        <div class="contact-image">
+          <img height="400px" width="500px" src="images/contact-us-image.png" alt="">
+        </div>
+        <div class="contact-info">    
+          <div class="order-form">
+            <h3>Send a Message</h3>
+            <main>
+            <form action="submit-order.php" method="POST">
+              <div class="fields">
+              <div class="field">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+          
+              <div class="field">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+          
+              <div class="field">
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+          
+              <div>
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+              </div>
+          
+              <div>
+                <input type="submit" value="Send" />
+              </div>
+            </div>
+            </form>
+          </main>
+          </div>
+          
+        </div>
+
+       
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Blossom Flower Shop</p>
+      </div>
+    </footer>
+  </body>
+</html>

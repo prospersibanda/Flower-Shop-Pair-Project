@@ -1,0 +1,42 @@
+.hero {
+    background-color: #fffbf0;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('images/hero-section.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #3a3a3a;
+  }
+  
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1em;
+    }
+  }
+  

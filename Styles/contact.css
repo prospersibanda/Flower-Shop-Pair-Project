@@ -1,0 +1,116 @@
+.contact {
+    background-color: #FFC0CB;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .contact .container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right) */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+
+  }
+  
+  .contact h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .order-form {
+    background-color: #FFC0CB;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    
+  }
+  
+  .order-form h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-form form {
+    text-align: left;
+ 
+  }
+  
+  .order-form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .order-form input[type="text"],
+  .order-form input[type="email"],
+  .order-form input[type="tel"],
+  .order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-form textarea {
+    resize: vertical;
+  }
+  
+  .order-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .contact h2 {
+      font-size: 2.5em;
+    }
+  
+    .order-form {
+      padding: 20px;
+      
+    }
+  
+    .order-form input[type="submit"] {
+      font-size: 1em;
+      padding: 10px 15px;
+    }
+  }
+.contact-image {
+    float: left;
+    margin-right: 300px;
+    height: 400px;
+}
