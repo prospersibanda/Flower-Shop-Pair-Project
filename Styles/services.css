@@ -21,8 +21,9 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #fff;
   font-size: 15px;
+  color:#3a3a3a;
+  padding: 20px 0;
 }
 
 nav ul li a:hover {
