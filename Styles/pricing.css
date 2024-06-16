@@ -49,7 +49,12 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-
+@media(max-width:768px){
+   nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 
 h2,
 h3 {
