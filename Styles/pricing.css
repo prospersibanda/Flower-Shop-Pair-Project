@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+  background-color: #ffc0cb;
+  padding: 20px 0;
+}
+
+nav ul li {
+  padding: 0 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+ nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+h2, h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  padding-left: 20px;
+ 
+}
+
+
+
+.events,
+.arrangements,
+.bouquet,
+.extras,
+.delivery {
+  padding: 20px 20px;
+  margin:80px ;
+  background-color: #fff;
+
+}
+
+
+.table-container{
+    display:grid;
+    place-items: center;
+}
