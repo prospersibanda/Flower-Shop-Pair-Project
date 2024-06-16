@@ -2,10 +2,10 @@
     background-color: #fffbf0;
     padding: 100px 0;
     text-align: center;
-    background-image: url('images/hero-section.jpg');
     background-size: cover;
     background-position: center;
     color: #3a3a3a;
+    margin-top: -38px;
   }
   
   .hero .container {
@@ -38,5 +38,19 @@
     .hero p {
       font-size: 1em;
     }
+  }
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745; /* Green background */
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
   }
   

@@ -6,13 +6,14 @@
     <title>Blossom Flower Shop</title>
     <link rel="stylesheet" href="Styles/homepage.css" />
     <link rel="stylesheet" href="Styles/hero-section.css" />
-    <link rel="stylesheet" href="Styles/contact.css" />
     <link rel="stylesheet" href="Styles/arrangements.css" />
+    <link rel="stylesheet" href="Styles/special-offers.css">
     <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="contactus.html">
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container-header" id="home-section">
         <h1>Blossom Flower Shop</h1>
         <nav>
           <ul>
@@ -21,7 +22,7 @@
             <li><a href="#">Pricing</a></li>
             <li><a href="#offers">Special Offers</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contactus.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -45,17 +46,17 @@
           doorstep <br />
           as your local florist with a personal touch.
         </p>
+       <a href="contactus.html"><button class="button">Contact Us</button></a>
       </div>
     </section>
-    <section id="arrangements" class="featured">
-      <header>
-        <h2>Featured Floral Arrangements</h2>
-      </header>
+    <section id="arrangements" class="featured">    
       <div class="container">
+        <div><h2 style="color: #333;
+        text-align: center;">Featured Floral Arrangements</h2></div>
         <div class="content">
           <aside>
-          
            <img src="images/featured-display.png" alt="">
+           <img width="300px" src="images/aside-flower.png" alt="">
           </aside>
           <main>
             <div class="arrangements">
@@ -76,6 +77,24 @@
                 <h3>Sympathy & Funeral Arrangements</h3>
               </div>
             </div>
+            <div class="arrangements">
+              <div class="arrangement">
+                <img src="images/birthday-bouquet.webp" alt="Pastel Mixed Rose" />
+                <h3>Birthday Bouquet</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/newbaby-bouquet.jpg" alt="Pastel Mixed Rose" />
+                <h3>New Baby Bouquet</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/cangratulations-bouquet.jpg" alt="Pastel Mixed Rose" />
+                <h3>Congratulations Bouquet</h3>
+              </div>
+              <div class="arrangement">
+                <img src="images/anniversary-bouquet.jpg" alt="Pastel Mixed Rose" />
+                <h3>Anniversary Bouquet</h3>
+              </div>
+            </div>
           </main>
         
           </div>
@@ -83,75 +102,24 @@
       </div>
     </section>
 
-    <section id="offers" class="offers">
-      <div class="container">
-        <h2>Special Offers</h2>
-        <p>Check out our latest special offers and discounts!</p>
+    <section class="container-offer" id="offers">
+      <h2 class="offer-title">Special Offers</h2>
+      <div class="offer-card">
+          <img src="images/discount2.png" alt="Roses Bouquet" class="offer-image">
+          <h3 class="offer-name">On Your First Funeral Arrangement</h3>
+          <p class="offer-description">At Blossom, we offer a compassionate 25% discount on your first funeral arrangement. Let us help you honor your loved ones with beautiful floral displays that reflect their unique spirit.</p>
       </div>
-    </section>
-
-    <section id="services" class="services">
-      <div class="container">
-        <h2>Our Services</h2>
-        <ul>
-          <li>Custom Bouquets</li>
-          <li>Wedding Arrangements</li>
-          <li>Corporate Events</li>
-          <li>Delivery Service</li>
-        </ul>
+      <div class="offer-card">
+          <img src="images/dicount3.jpg" alt="Sunflowers Bundle" class="offer-image">
+          <h3 class="offer-name">On Birthday Bouquets</h3>
+          <p class="offer-description">We offer a stunning selection of birthday bouquets to make every celebration extra special. From vibrant arrangements to monthly flower subscriptions, there's something for everyone.</p>
       </div>
-    </section>
-    <section id="contact" class="contact">
-      <div class="contact-info">
-        <h2>Contact Us</h2>
-        <ul>
-          <li><strong>Email:</strong> info@blossomshop.com</li>
-          <li><strong>Phone:</strong> +27 78 456-7890</li>
-        </ul>
-        </div>
-      <div class="container">
-        <div class="contact-image">
-          <img height="400px" width="500px" src="images/contact-us-image.png" alt="">
-        </div>
-        <div class="contact-info">    
-          <div class="order-form">
-            <h3>Send a Message</h3>
-            <main>
-            <form action="submit-order.php" method="POST">
-              <div class="fields">
-              <div class="field">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-          
-              <div class="field">
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-          
-              <div class="field">
-                <label for="phone">Your Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required />
-              </div>
-          
-              <div>
-                <label for="message">Message (optional):</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-              </div>
-          
-              <div>
-                <input type="submit" value="Send" />
-              </div>
-            </div>
-            </form>
-          </main>
-          </div>
-          
-        </div>
-
-       
+      <div class="offer-card">
+          <img src="images/discount4.png" alt="Mixed Flowers" class="offer-image">
+          <h3 class="offer-name">Free Delivery</h3>
+          <p class="offer-description">We are pleased to offer free delivery on above R5000, ensuring that your thoughtful gift reaches your loved ones without any additional cost. Whether you're near or far, our team is dedicated to ensuring a seamless and delightful experience.</p>
       </div>
-    </section>
+  </section>
     <footer>
       <footer class="footer">
         <div class="footer-section">
@@ -195,7 +163,7 @@
             </form>
             <br>
             <div class="back-to-top">
-              <a href="#">Back to the top ↑</a>
+              <a href="index.html#home-section">Back to the top ↑</a>
           </div>
           <br>
           <br>

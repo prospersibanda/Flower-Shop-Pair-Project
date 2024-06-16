@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #333;
 }
 .footer {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background-color: #333;
+    background-color: #f9f9f9;
 }
 .footer div {
     flex: 1;
@@ -44,14 +44,8 @@ body {
 .social-icons {
     margin-top: 20px;
 }
-.social-icons a {
-    margin-right: 10px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-}
 .footer a {
-    color: #fff;
+    color: #333;
 }
 
 .footer a:hover {
