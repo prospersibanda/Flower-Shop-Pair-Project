@@ -51,33 +51,6 @@ nav ul li a:hover {
 
 
 
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin: 10px 0 0;
-  background-color: #ffc0cb;
-  padding: 20px 0;
-}
-
-nav ul li {
-  padding: 0 5px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #3a3a3a;
-  padding: 20px 0;
-  font-size: 15px;
-}
-
-nav ul li a:hover {
-  background-color: #575757;
-  border-radius: 5px;
-  padding: 5px;
-}
-
 h2,
 h3 {
   text-align: center;
