@@ -136,7 +136,8 @@ img {
     width: 80%;
   }
   img {
-    margin-left: 5px;
+    margin-left: -5px;
+    width:  80%;
   }
 }
 
