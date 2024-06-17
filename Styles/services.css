@@ -135,6 +135,10 @@ img {
   .services-section {
     margin-left: 40px;
   }
+  p img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 
