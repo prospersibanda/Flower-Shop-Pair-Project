@@ -50,6 +50,10 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+.container-services {
+  background-color: #f0f0f0;
+}
+
 @media(max-width:768px){
    nav ul {
     flex-direction: column;
