@@ -128,11 +128,12 @@ img {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 40px;
+    padding: 70px;
 
   }
   .services-section {
     margin-left: 40px;
-    width: 100%;
+    width: 80%;
   }
 }
 
